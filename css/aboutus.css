@@ -1,0 +1,266 @@
+
+:root{
+    --background-color: #1c1c1c;
+    --font: #515151;
+    --button-color: #2AD386;
+    --link: #0060FF;
+    --visited-link: #7e0280;
+    --error: #FF0000;
+    --card: #515151;
+}
+
+
+
+/* HEADER */
+
+header{
+    background-color: var(--background-color);
+}
+header ul{
+    margin-left: 300px;
+    
+}
+header ul li{
+    font-size: 20px;
+    margin: 20px;
+}
+header ul li a:hover{
+    text-decoration: underline;
+    color: var(--button-color)!important;
+}
+
+
+/* MAIN */
+main{
+    background-color: var(--background-color);
+}
+.overview h2{
+    font-size: 50px;
+}
+.overview img{
+    width: 1280px;
+    height: 640px;
+    border-radius: 20px;
+}
+.overview p{
+    font-size: 20px;
+}
+.overview p a{
+    text-decoration: underline;
+    color: blue!important;
+}
+
+.leader h2{
+    margin-top: 50px;
+    font-size: 50px;
+}
+main .leader-text{
+    background-color: var(--card);
+    width: 420px;
+}
+.leader-content{
+    width: 850px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 200px;
+}
+.leader-content .col{
+    width: 420px;
+    border-radius: 15px;
+}
+.leader-content-text{
+    padding: 15px;
+    background-color: var(--card);
+    border-radius: 10px;
+}
+.leader-content-text h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0;
+    color: whitesmoke;
+}
+.leader-content-text h2 span{
+    font-size: 20px;
+    font-weight: 300;
+}
+.leader-content-text p{
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    color: whitesmoke;
+}
+.leader-content-text p a{
+    color: #0060FF;
+    text-decoration: underline;
+}
+
+                              /* O  U  R  -  M  I  S  S  I  O  N */
+
+.our-mission .content{
+    background-color: var(--card);
+    width: 500px;
+    margin-top: 70px;
+    margin-left: 100px;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    padding: 25px 30px;
+    position: absolute;
+}
+.our-mission .content h2{
+    font-size: 50px;
+   
+}
+.our-mission .content p{
+    font-size: 25px;
+    font-weight: 300;
+}
+.our-mission .content .see-more{
+    background-color: var(--button-color);
+    padding: 5px;
+    width: 40%;
+    margin-left: 130px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.our-mission .image{
+    margin-top: 350px;
+    margin-left: -80px;
+}
+
+                             /* O  L  X  -  S  E  R  V  I  C  E  S */
+
+.olx-services .image{
+    width: 500px;
+    height: 500px;
+    margin-left: 100px;
+    margin-top: 400px;
+    border-radius: 30px;
+}
+.olx-services .content{
+    background-color: var(--card);
+    width: 500px;
+    border-radius: 20px;
+    padding: 25px 30px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: -80px;
+}
+.olx-services .content p{
+    font-size: 25px;
+    font-weight: 300;
+}
+.olx-services .content h2{
+    font-size: 50px; 
+}
+.olx-services .content .see-more{
+    background-color: var(--button-color);
+    padding: 5px;
+    width: 40%;
+    margin-left: 130px;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+
+.global-influence h1{
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.global-influence .content{
+    background-color: var(--card);
+    padding: 50px;
+}
+.global-influence .content h2{
+    color: whitesmoke;
+    font-size: 40px;
+}
+.global-influence .content .rank{
+    margin-top: 5px;
+    color: whitesmoke;
+}
+.global-influence .content h6{
+   margin-bottom: 0;
+   margin-left: 60px;
+   font-size: 20px;
+}
+.global-influence .content .visit{
+   margin-bottom: 0;
+   margin-left: 100px;
+   font-size: 20px;
+}
+
+
+.our-achievement h1{
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.our-achievement .award{
+    display: flex;
+    justify-content: space-evenly;
+}
+.our-achievement .award .people-award{
+    background-color: var(--card);
+    width: 600px;
+    padding: 30px 60px;
+    border-radius: 10px;
+    text-align: center;
+    margin-right: -40px;
+}
+.our-achievement .award .people-award img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-achievement .award .people-award h4{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: whitesmoke;
+}
+.our-achievement .award .people-award p{
+    color: whitesmoke;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+.our-achievement .award .people-award a{
+    background-color: #2AD386;
+    padding: 10px 60px;
+    color: black;
+    border-radius: 15px;
+}
+
+
+.our-achievement .award .car-award{
+    background-color: var(--card);
+    width: 600px;
+    padding: 30px 60px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: -80px;
+}
+.our-achievement .award .car-award img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our-achievement .award .car-award h4{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: whitesmoke;
+}
+.our-achievement .award .car-award p{
+    color: whitesmoke;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+.our-achievement .award .car-award a{
+    background-color: #2AD386;
+    padding: 10px 60px;
+    color: black;
+    border-radius: 15px;
+}
+

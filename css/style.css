@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --background-color: #1c1c1c;
+    --font: #515151;
+    --button-color: #2AD386;
+    --link: #0060FF;
+    --visited-link: #7e0280;
+    --error: #FF0000;
+    --card: #515151;
+}
+body{
+    font-family: "Roboto", sans-serif;
+}
+.main{
+    background-color: var(--background-color);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* BUTTONS CUSTOM */
+
+.long-button{
+    height: 44px;
+    width: 250px;
+    border: 0px;
+    border-radius: 8px;
+}
+.short-button{
+    height: 44px;
+    width: 108px;
+    border: 0px;
+    border-radius: 8px;
+}
+.button-green{
+    background-color: var(--button-color);
+    border: 0px;
+    border-radius: 8px;
+    height: 44px;
+    margin: 5px;
+}
+.button-white{
+    background-color: white;
+    border: 0px;
+    border-radius: 8px;
+    height: 44px;
+    margin: 5px;
+}
+
+/* PRODUCTS */
+.products{
+    margin-top: 80px;
+}
+.product-card{
+    height: 300px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: var(--card);
+    margin-top: 20px;
+}
+.product-card-photo{
+    background-image: url(../assets/images/iphone\ 14\ 1.png);
+    height: 180px;
+    width: 285px;
+    margin-left: 8px;
+    transform: translateY(5px);
+    border-radius: 8px;
+}
+.product-card ul{
+    list-style: none;
+    color: #efefef;
+}
+.product-card li{
+    margin-left: -20px;
+    margin-top: 10px;
+}
+.product-card h2{
+    padding-top: 5px;
+    font-size: 24px;
+}
+.product-card-address{
+    font-size: 12px;
+}
+.products .verified-user{
+    border-bottom: #2AD386 5px solid;
+}
+.products .unverified-user{
+    border-bottom: #FFCE32 5px solid;
+}
+
+/* COMPANY */
+.company{
+    padding-bottom: 200px;
+    padding-top: 50px;
+}
+
+/* FOOTER */
+footer{
+    background-color: var(--card);
+    overflow-x: hidden;
+}
+footer h5{
+    color: whitesmoke;
+}
+footer ul li{
+    list-style: none;
+}
+footer ul{
+    padding-left: 0;
+}
+.icon li{
+    font-size: 40px;
+}
+footer .bottom-text{
+    color: whitesmoke;
+    padding-bottom: 20px;
+}
+footer .bottom-text2{
+    color: whitesmoke;
+    font-size: 13px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
